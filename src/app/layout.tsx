@@ -1,3 +1,4 @@
+import { Header } from '@/components/header';
 import type { Metadata } from 'next';
 import { Indie_Flower, Inter, Parisienne } from 'next/font/google';
 import './globals.css';
@@ -18,7 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-primary ${parisienne.className}`}>{children}</body>
+      <body className={` bg-primary ${indieFlower.className}`}>
+        <header className="max-w-7xl mx-auto">
+          <Header />
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
