@@ -1,6 +1,5 @@
-import Hero from '@/components/Hero';
-import Menu from '@/components/Menu';
-import Service from '@/components/Service';
+import Hero from "@/components/Hero";
+import Service from "@/components/Service";
 
 export default function Home() {
   return (
@@ -8,7 +7,6 @@ export default function Home() {
       <Hero />
       <div className="flex gap-10 flex-col">
         <Service />
-        <Menu />
       </div>
     </main>
   );
