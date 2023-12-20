@@ -1,4 +1,4 @@
-import { Header } from '@/components/Header';
+import { Header } from '@/components/header';
 import type { Metadata } from 'next';
 import { Indie_Flower, Inter, Parisienne } from 'next/font/google';
 import './globals.css';

@@ -1,8 +1,8 @@
-"use client";
-import { HomeIcon, InstagramIcon, MessageSquareShareIcon } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+'use client';
+import { HomeIcon, InstagramIcon, MessageSquareShareIcon } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export function Header() {
   const pathName = usePathname();
@@ -19,7 +19,7 @@ export function Header() {
       <div className="flex justify-center gap-10 max-sm:gap-4">
         <Link
           className="text-2xl transition duration-300 ease-in-out hover:scale-125 max-sm:text-base"
-          href={`${"/" ? "/#service" : "/"}`}
+          href={`${'/' ? '/#service' : '/'}`}
         >
           Serviço
         </Link>
@@ -31,7 +31,7 @@ export function Header() {
         </Link>
         <Link
           className="text-2xl transition duration-300 ease-in-out hover:scale-125 max-sm:text-base"
-          href={`${"/" ? "/#contact" : "/"}`}
+          href={`${'/' ? '/#contact' : '/'}`}
         >
           Contato
         </Link>
@@ -43,7 +43,7 @@ export function Header() {
         </Link>
       </div>
       <div className="flex gap-5 max-sm:gap-2">
-        {pathName !== "/" && (
+        {pathName !== '/' && (
           <Link
             href="/"
             target="_blank"
