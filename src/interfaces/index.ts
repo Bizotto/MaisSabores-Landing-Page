@@ -1,4 +1,4 @@
 export interface Empadas {
-  label: string;
-  image: string;
+	label: string
+	image: string
 }
