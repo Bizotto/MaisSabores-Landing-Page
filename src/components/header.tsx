@@ -19,7 +19,7 @@ export function Header() {
 			<div className="flex justify-center gap-10 max-sm:gap-4">
 				<Link
 					className="text-2xl transition duration-300 ease-in-out hover:scale-125 max-sm:text-base"
-					href={`${'/' ? '/#service' : '/'}`}
+					href={pathName !== '/' ? '/' : '/#service'}
 				>
 					Serviço
 				</Link>
@@ -31,7 +31,7 @@ export function Header() {
 				</Link>
 				<Link
 					className="text-2xl transition duration-300 ease-in-out hover:scale-125 max-sm:text-base"
-					href={`${'/' ? '/#contact' : '/'}`}
+					href={pathName !== '/' ? '/' : '/#contact'}
 				>
 					Contato
 				</Link>
@@ -46,7 +46,6 @@ export function Header() {
 				{pathName !== '/' && (
 					<Link
 						href="/"
-						target="_blank"
 						className="transition duration-300 ease-in-out hover:scale-125"
 					>
 						<HomeIcon className="h-6 w-6 max-sm:h-5 max-sm:w-5" />
