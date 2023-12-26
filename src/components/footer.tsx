@@ -13,13 +13,7 @@ export default function Footer() {
 						Bizotto
 					</a>
 				</p>
-				<Image
-					src="/logo.jpg"
-					alt="Logo"
-					width={60}
-					height={60}
-					className="cursor-pointer"
-				/>
+				<Image src="/Logo.jpg" alt="Logo" width={60} height={60} />
 			</div>
 		</footer>
 	)
