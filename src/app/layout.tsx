@@ -1,10 +1,9 @@
+import Footer from '@/components/footer'
 import { Header } from '@/components/header'
 import type { Metadata } from 'next'
-import { Indie_Flower, Inter, Parisienne } from 'next/font/google'
+import { Indie_Flower } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
-const parisienne = Parisienne({ weight: '400', subsets: ['latin'] })
 const indieFlower = Indie_Flower({ weight: '400', subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -24,6 +23,7 @@ export default function RootLayout({
 					<Header />
 				</header>
 				{children}
+				<Footer />
 			</body>
 		</html>
 	)

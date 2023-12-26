@@ -19,7 +19,7 @@ export function Header() {
 			<div className="flex justify-center gap-10 max-sm:gap-4">
 				<Link
 					className="text-2xl transition duration-300 ease-in-out hover:scale-125 max-sm:text-base"
-					href={pathName !== '/' ? '/' : '/#service'}
+					href={pathName !== '/' ? '/' && '/#service' : '/#service'}
 				>
 					Serviço
 				</Link>
