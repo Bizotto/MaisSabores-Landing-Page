@@ -5,7 +5,7 @@ import { empadas, empadinhas } from '../../components/constants'
 export default function Menu() {
 	return (
 		<div className="max-sm:flex flex-col gap-20 max-sm:mx-5 max-md:mx-5 max-lg:mx-5 max-xl:mx-5">
-			<section className="mx-auto flex max-w-7xl h-[100vh] max-sm:mt-24 items-center justify-center space-y-5">
+			<section className="mx-auto flex max-w-7xl h-[100vh] max-[375px]:mt-48 max-sm:mt-24 items-center justify-center space-y-5">
 				<div className="flex gap-5 flex-col">
 					<h1 className="text-7xl flex items-center justify-center max-md:mt-24">
 						Cardápio
@@ -41,7 +41,7 @@ export default function Menu() {
 				</div>
 			</section>
 
-			<section className="mx-auto flex max-w-7xl items-center justify-center space-y-5">
+			<section className="mx-auto flex max-w-7xl max-[375px]:mt-48 items-center justify-center space-y-5">
 				<div className="flex flex-col gap-5 ">
 					<h2 className="text-4xl flex items-center justify-center">
 						Empadinhas
