@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Hero() {
 	return (
 		<section className="mx-auto flex h-[100vh] max-w-7xl items-center justify-center max-sm:mx-5 max-md:mx-5 max-lg:mx-5 max-xl:mx-5 ">
-			<div className="flex flex-col items-center justify-center gap-8 text-center max-[375px]:mt-24 md:items-start md:text-start">
+			<div className="flex flex-col items-center justify-center gap-8 text-center max-sm:mt-48 max-[375px]:mt-24 md:items-start md:text-start">
 				<h1 className="text-9xl max-sm:text-6xl">
 					Empadas <br /> Amore
 				</h1>
