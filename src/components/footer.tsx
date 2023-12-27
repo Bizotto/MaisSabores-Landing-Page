@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Footer() {
 	return (
-		<footer className="bg-zinc-400/10 mt-24">
-			<div className="max-w-7xl mx-auto flex h-24 items-center justify-between">
+		<footer className="bg-secondary-100/20 mt-24">
+			<div className="max-w-7xl mx-auto flex h-24 items-center justify-between  max-sm:mx-5 max-md:mx-5 max-lg:mx-5 max-xl:mx-5 ">
 				<p>
 					Made with 💜 by{' '}
 					<a

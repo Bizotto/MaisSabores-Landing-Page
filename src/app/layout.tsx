@@ -1,3 +1,4 @@
+import FloatingButton from '@/components/floatingButton'
 import Footer from '@/components/footer'
 import { Header } from '@/components/header'
 import type { Metadata } from 'next'
@@ -18,10 +19,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={` bg-primary ${indieFlower.className}`}>
-				<header className="max-w-7xl mx-auto">
-					<Header />
-				</header>
+			<body className={`bg-primary ${indieFlower.className}`}>
+				<FloatingButton />
+				<Header />
 				{children}
 				<Footer />
 			</body>
