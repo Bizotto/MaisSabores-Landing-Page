@@ -1,6 +1,7 @@
 import FloatingButton from '@/components/floatingButton'
 import Footer from '@/components/footer'
 import { Header } from '@/components/header'
+import { Analytics } from '@vercel/analytics/react'
 import type { Metadata } from 'next'
 import { Indie_Flower } from 'next/font/google'
 import './globals.css'
@@ -25,6 +26,7 @@ export default function RootLayout({
 				{children}
 				<Footer />
 			</body>
+			<Analytics />
 		</html>
 	)
 }
