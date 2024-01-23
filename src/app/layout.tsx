@@ -9,7 +9,7 @@ import './globals.css'
 const indieFlower = Indie_Flower({ weight: '400', subsets: ['latin'] })
 
 export const metadata: Metadata = {
-	title: 'Amore Empadas',
+	title: 'Empada Mais Sabores',
 	description: 'Levando amor e satisfação a cada mordida',
 }
 
