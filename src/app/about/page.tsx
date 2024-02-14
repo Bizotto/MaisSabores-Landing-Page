@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <section className="mx-auto h-[100vh] flex max-w-7xl max-sm:mx-5 max-md:mx-5 max-lg:mx-5 max-xl:mx-5">
-      <div className=" flex flex-col items-center text-center justify-center gap-8 max-sm:mt-24 max-[375px]:mt-24">
+    <section className="mx-auto h-[100vh] flex max-w-7xl max-sm:mx-5 max-sm:h-full max-md:mx-5 max-lg:mx-5 max-xl:mx-5">
+      <div className=" flex flex-col items-center text-center justify-center gap-8 max-sm:mt-48 max-md:mt-48 max-lg:mt-48 max-[375px]:mt-48">
         <h1 className="text-7xl font-alt">Sobre nós</h1>
         <p className="text-2xl">
           Somos verdadeiros apreciadores da culinária de qualidade, dedicados a
