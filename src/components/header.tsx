@@ -16,7 +16,7 @@ export function Header() {
           width={40}
           height={40}
         />
-        <div className="flex justify-center gap-10 max-sm:gap-4">
+        <div className="flex gap-10 max-sm:gap-4 absolute inset-0 justify-center items-center">
           <Link
             className="p-1 rounded-xl text-2xl text-secondary-300 transition-all duration-300 ease-in-out hover:bg-secondary-300/30 hover:scale-110 max-sm:text-xl"
             href={pathname !== "/" ? "/" && "/#service" : "/#service"}
@@ -36,7 +36,7 @@ export function Header() {
             Sobre
           </Link>
         </div>
-        <div className="flex gap-5 max-sm:gap-2">
+        <div className="flex gap-5 max-sm:gap-2 z-10">
           {pathname !== "/" && (
             <Link
               href="/"
