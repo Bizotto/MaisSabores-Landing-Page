@@ -10,7 +10,8 @@ export default function Hero() {
         </h1>
 
         <h2 className="text-2xl">
-          Venha conhecer os deliciosos sabores das empadas caseiras Amore!
+          Venha conhecer os deliciosos sabores das empadas caseiras e muito mais
+          sabores!
           <br /> Aqui, Criamos uma experiencia mais do que gastronômica. <br />
         </h2>
 
@@ -27,7 +28,7 @@ export default function Hero() {
 
       <div>
         <Image
-          alt="Imagem contendo a logo das empadas Amore"
+          alt="Imagem contendo a logo das empadas Mais Sabores"
           src="https://picsum.photos/800"
           width={600}
           height={800}

@@ -12,25 +12,25 @@ export function Header() {
       <div className="flex h-24 items-center max-w-7xl justify-between mx-auto max-sm:mx-5 max-md:mx-5 max-lg:mx-5 max-xl:mx-5">
         <Image
           src="/Logo.jpg"
-          alt="Imagem contendo a logo das empadas Amore"
+          alt="Imagem contendo a logo das empadas Mais Sabores"
           width={40}
           height={40}
         />
         <div className="flex gap-10 max-sm:gap-4 absolute inset-0 justify-center items-center">
           <Link
-            className="p-1 rounded-xl text-2xl text-secondary-300 transition-all duration-300 ease-in-out hover:bg-secondary-300/30 hover:scale-110 max-sm:text-xl"
+            className="p-1 rounded-xl text-2xl text-secondary-300 transition-all duration-300 ease-in-out hover:bg-secondary-300/30 hover:scale-110 max-sm:text-[16px]"
             href={pathname !== "/" ? "/" && "/#service" : "/#service"}
           >
             Serviço
           </Link>
           <Link
-            className="p-1 rounded-xl text-2xl text-secondary-300 transition-all duration-300 ease-in-out hover:bg-secondary-300/30 hover:scale-110 max-sm:text-xl"
+            className="p-1 rounded-xl text-2xl text-secondary-300 transition-all duration-300 ease-in-out hover:bg-secondary-300/30 hover:scale-110 max-sm:text-[16px]"
             href="/menu"
           >
             Cardápio
           </Link>
           <Link
-            className="p-1 rounded-xl text-2xl text-secondary-300 transition-all duration-300 ease-in-out hover:bg-secondary-300/30 hover:scale-110 max-sm:text-xl"
+            className="p-1 rounded-xl text-2xl text-secondary-300 transition-all duration-300 ease-in-out hover:bg-secondary-300/30 hover:scale-110 max-sm:text-[16px]"
             href="/about"
           >
             Sobre

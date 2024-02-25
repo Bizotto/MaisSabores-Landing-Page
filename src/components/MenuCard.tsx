@@ -24,8 +24,8 @@ export default function MenuCard({
           height={150}
         />
         <div className="flex flex-col gap-2">
-          <p className="text-2xl max-sm:text-xl">{label}</p>
-          <p className="text-2xl max-sm:text-xl">
+          <p className="text-xl max-sm:text-lg">{label}</p>
+          <p className="text-xl max-sm:text-lg">
             {price} {grams}
           </p>
           <p>Mande uma mensagem</p>
