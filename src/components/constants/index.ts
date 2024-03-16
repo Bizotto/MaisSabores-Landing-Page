@@ -4,6 +4,7 @@ import empadinhaCalabresa from "@/assets/empadinha-de-calabresa.jpeg";
 import empadinhaChocolate from "@/assets/empadinha-de-chocolate.jpeg";
 import empadinhaCoco from "@/assets/empadinha-doce-deleite-coco.jpeg";
 import escondidinhoCarneMoida from "@/assets/escondidinho-carne-moida.jpeg";
+import escondididinhoDesfiada from "@/assets/escondidinhoGrande.jpeg";
 
 export const empadas = [
   {
@@ -68,7 +69,7 @@ export const escondidnho = [
   },
   {
     label: "Escondidinho de carne desfiada",
-    image: empadaConfeitos,
+    image: escondididinhoDesfiada,
     price: "R$25,00",
     grams: "400g",
   },
