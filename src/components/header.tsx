@@ -13,8 +13,8 @@ export function Header() {
         <Image
           src="/Logo.jpg"
           alt="Imagem contendo a logo das empadas Mais Sabores"
-          width={40}
-          height={40}
+          width={80}
+          height={80}
         />
         <div className="flex gap-10 max-sm:gap-4 absolute inset-0 justify-center items-center">
           <Link

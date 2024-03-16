@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import escondidinho from "../assets/escondidinhoGrande.jpeg";
 
 export default function Hero() {
   return (
@@ -29,7 +30,7 @@ export default function Hero() {
       <div>
         <Image
           alt="Imagem contendo a logo das empadas Mais Sabores"
-          src="https://picsum.photos/800"
+          src={escondidinho}
           width={600}
           height={800}
           className="hidden rounded-3xl shadow-md shadow-black/50 lg:block"

@@ -1,3 +1,4 @@
+import empadaRedonda from "@/assets/empadaRedonda.jpeg";
 import empadaConfeitos from "@/assets/empadinha-confeitos.jpeg";
 import empadinhaCalabresa from "@/assets/empadinha-de-calabresa.jpeg";
 import empadinhaChocolate from "@/assets/empadinha-de-chocolate.jpeg";
@@ -7,25 +8,25 @@ import escondidinhoCarneMoida from "@/assets/escondidinho-carne-moida.jpeg";
 export const empadas = [
   {
     label: "Empadão de frango",
-    image: empadaConfeitos,
+    image: empadaRedonda,
     price: "R$25,00",
     grams: "350g",
   },
   {
     label: "Empadão de frango com requeijão",
-    image: empadaConfeitos,
+    image: empadaRedonda,
     price: "R$25,00",
     grams: "350g",
   },
   {
     label: "Empadão de calabresa com requeijão",
-    image: empadaConfeitos,
+    image: empadaRedonda,
     price: "R$25,00",
     grams: "350g",
   },
   {
     label: "Empadão de calabresa com frango e requeijão",
-    image: empadaConfeitos,
+    image: empadaRedonda,
     price: "R$25,00",
     grams: "350g",
   },
