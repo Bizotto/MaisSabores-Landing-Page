@@ -16,7 +16,7 @@ export function Header() {
           width={80}
           height={80}
         />
-        <div className="flex gap-10 max-sm:gap-4 absolute inset-0 justify-center items-center">
+        <div className="flex gap-10 max-sm:gap-4 absolute inset-0 justify-center items-center max-sm:ml-20">
           <Link
             className="p-1 rounded-xl text-2xl text-secondary-300 transition-all duration-300 ease-in-out hover:bg-secondary-300/30 hover:scale-110 max-sm:text-[16px]"
             href={pathname !== "/" ? "/" && "/#service" : "/#service"}
@@ -40,7 +40,7 @@ export function Header() {
           {pathname !== "/" && (
             <Link
               href="/"
-              className="hover:scale-125 boder-2 border-secondary-100 transition-all duration-300 ease-in-out "
+              className="hover:scale-125 border-secondary-100 transition-all duration-300 ease-in-out "
             >
               <div className="p-2 rounded-full transition-all duration-300 hover:bg-secondary-300/30 border-2 border-secondary-300 ease-in-out max-md:hidden max-sm:hidden">
                 <HomeIcon className="h-6 w-6 max-sm:h-5 max-sm:w-5 text-secondary-300" />
