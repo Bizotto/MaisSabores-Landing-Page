@@ -1,4 +1,4 @@
-import empadaRedonda from "@/assets/empadaRedonda.jpeg";
+import empadao from "@/assets/empadao.png";
 import empadaConfeitos from "@/assets/empadinha-confeitos.jpeg";
 import empadinhaCalabresa from "@/assets/empadinha-de-calabresa.jpeg";
 import empadinhaChocolate from "@/assets/empadinha-de-chocolate.jpeg";
@@ -9,25 +9,25 @@ import escondididinhoDesfiada from "@/assets/escondidinhoGrande.jpeg";
 export const empadas = [
   {
     label: "Empadão de frango",
-    image: empadaRedonda,
+    image: empadao,
     price: "R$25,00",
     grams: "350g",
   },
   {
     label: "Empadão de frango com requeijão",
-    image: empadaRedonda,
+    image: empadao,
     price: "R$25,00",
     grams: "350g",
   },
   {
     label: "Empadão de calabresa com requeijão",
-    image: empadaRedonda,
+    image: empadao,
     price: "R$25,00",
     grams: "350g",
   },
   {
     label: "Empadão de calabresa com frango e requeijão",
-    image: empadaRedonda,
+    image: empadao,
     price: "R$25,00",
     grams: "350g",
   },
@@ -60,7 +60,7 @@ export const empadinhas = [
   },
 ];
 
-export const escondidnho = [
+export const escondidnhos = [
   {
     label: "Escondidinho de carne moída",
     image: escondidinhoCarneMoida,
@@ -73,4 +73,11 @@ export const escondidnho = [
     price: "R$25,00",
     grams: "400g",
   },
+  {
+    label: "Escondidinho de pernil desfiado",
+    image: escondididinhoDesfiada,
+    price: "R$25,00",
+    grams: "400g",
+  },
+  ,
 ];

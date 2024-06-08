@@ -58,7 +58,7 @@ export function Header() {
             </div>
           </Link>
           <Link
-            href="https://wa.me/4896096712/?text=Olá, Gostaria de fazer um pedido!"
+            href="https://wa.me/48998594661/?text=Olá, Gostaria de fazer um pedido!"
             target="_blank"
             className="transition duration-300 ease-in-out hover:scale-125"
           >

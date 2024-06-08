@@ -1,5 +1,5 @@
 import MenuCard from "@/components/MenuCard";
-import { empadas, empadinhas, escondidnho } from "../../components/constants";
+import { empadas, empadinhas, escondidnhos } from "../../components/constants";
 
 export default function Menu() {
   return (
@@ -43,21 +43,23 @@ export default function Menu() {
           })}
         </div>
       </section>
-      <section className="mx-auto flex-col flex max-w-7xl items-center justify-center space-y-5">
+      <section className="mx-auto flex-col flex max-w-7xl h-[100vh] items-center justify-center space-y-5">
         <h2 className="text-3xl font-alt flex items-center justify-center">
           Escondidnhos
         </h2>
         <div className="grid grid-cols-2 gap-4 max-sm:flex flex-col">
-          {escondidnho.map((item) => {
-            return (
-              <MenuCard
-                key={item.label}
-                label={item.label}
-                image={item.image}
-                price={item.price}
-                grams={item.grams}
-              />
-            );
+          {escondidnhos.map((item) => {
+            if (item) {
+              return (
+                <MenuCard
+                  key={item.label}
+                  label={item.label}
+                  image={item.image}
+                  price={item.price}
+                  grams={item.grams}
+                />
+              );
+            }
           })}
         </div>
       </section>
