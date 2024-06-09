@@ -20,7 +20,10 @@ export default function FloatingButton() {
           </div>
         </Link>
       )}
-      <Link href="" target="_blank">
+      <Link
+        href="https://wa.me/48998594661/?text=Olá, gostaria de fazer um pedido!"
+        target="_blank"
+      >
         <div className="border-2 border-secondary-300 p-2 rounded-full">
           <MessageSquareShareIcon className="h-6 w-6 text-secondary-300" />
         </div>
