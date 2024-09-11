@@ -8,6 +8,7 @@ export default function MenuCard({
   image,
   price,
   grams,
+  observation,
 }: MenuCardProps) {
   return (
     <Link
@@ -23,8 +24,9 @@ export default function MenuCard({
           width={150}
           height={150}
         />
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-1">
           <p className="text-xl max-sm:text-sm">{label}</p>
+          {observation && <p className="max-sm:text-xs">{observation}</p>}
           <p className="text-xl max-sm:text-sm">
             {price} {grams}
           </p>
