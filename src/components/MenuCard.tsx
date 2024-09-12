@@ -14,7 +14,7 @@ export default function MenuCard({
     <Link
       key={label}
       target="_blank"
-      href={`https://wa.me/48998594661/?text=Olá, gostaria de pedir um ${label}!`}
+      href={`https://wa.me/48998594661/?text=Olá, gostaria de encomendar um ${label}!`}
     >
       <div className="flex gap-2 items-center max-sm:justify-start shadow-md shadow-black/30 border-2 border-secondary-100 rounded-md p-2 hover:scale-105 hover:bg-secondary-100/50 transitions-all duration-300">
         <Image
